@@ -40,6 +40,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  color: white;
 }
 
 header, section, aside, nav, footer {
@@ -49,10 +50,11 @@ header, section, aside, nav, footer {
 /* header and footer */
 
 header, footer {
-  border-top: 5px solid #a66;
-  border-bottom: 5px solid #a66;
+  border-top: 5px solid #cc092f;
+  border-bottom: 5px solid #cc092f;
   display: flex;
   justify-content: center;
+  background-color: #cc092f;
 }
 
 /* WRITE YOUR CODE BELOW HERE */
@@ -62,17 +64,18 @@ button {
   width: 200%;
   transition-duration: 0.4s;
   background-color: white;
-  border: 2px solid #a66;
+  border: 2px solid #cc092f;
   margin: 10px;
+  border-radius: 12px;
 }
 
 button:hover {
-  background-color: #888888;
+  background-color: #AAAAAA;
 }
 
 a:link {
   text-decoration: underline;
-  color: #a66;
+  color: #cc092f;
 }
 
 a:hover {
@@ -99,4 +102,5 @@ h2:nth-of-type(2)  {
 
 h1 {
   font-size: 50px;
+  color: white;
 }
