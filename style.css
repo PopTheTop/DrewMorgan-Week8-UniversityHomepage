@@ -1,6 +1,9 @@
 /* General setup */
 
 * {
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -13,27 +16,34 @@ body {
 /* Layout */
 
 section {
-
 }
 
 main {
-  
+  display: flex;
+  flex-grow: 1;
 }
 
 aside {
-
+  display: flex;
+  flex-wrap: wrap;
 }
 
 nav {
+  margin-right: 100px;
+  display: flex;
 
 }
 
 footer {
-
+  height: 100px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 header, section, aside, nav, footer {
-  padding: 20px;
+  padding: 40px;
 }
 
 /* header and footer */
@@ -41,6 +51,52 @@ header, section, aside, nav, footer {
 header, footer {
   border-top: 5px solid #a66;
   border-bottom: 5px solid #a66;
+  display: flex;
+  justify-content: center;
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+button {
+  font-size: 18px;
+  line-height: 3;
+  width: 200%;
+  transition-duration: 0.4s;
+  background-color: white;
+  border: 2px solid #a66;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #888888;
+}
+
+a:link {
+  text-decoration: underline;
+  color: #a66;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  color: blue;
+}
+.indent {
+  text-indent: 10px;
+  margin-bottom: 10px;
+}
+
+h2:nth-of-type(1)  {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2:nth-of-type(2)  {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 50px;
+}
